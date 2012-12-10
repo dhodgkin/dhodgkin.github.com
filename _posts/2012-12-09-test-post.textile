@@ -3,9 +3,8 @@ layout: post
 title: Test Post
 ---
 
-{{ page.title }}
-================
+h1. {{ page.title }}
 
-<p class="meta">09 Dec 2012</p>
+p(meta). 09 Dec 2012
 
 Just a test post to get everything working and to make sure the template works as it should.
