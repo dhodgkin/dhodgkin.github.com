@@ -3,7 +3,9 @@ layout: post
 title: Test Post
 ---
 
-h1. {{ page.title }}
+{{ page.title }}
+================
 
-p(meta). 9 Dec 2012
+<p class="meta">09 Dec 2012</p>
 
+Just a test post to get everything working and to make sure the template works as it should.
