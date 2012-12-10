@@ -17,9 +17,7 @@
 
   <body>
     <!-- ClickTale Top part -->
-    <script type="text/javascript">
-    var WRInitTime=(new Date()).getTime();
-    </script>
+    <script type="text/javascript">var WRInitTime=(new Date()).getTime();</script>
     <!-- ClickTale end of Top part -->
 
     
@@ -27,10 +25,6 @@
       <div class="container">
         <h1>{{ page.title }}</h1>
         <h2>{{ page.slogan }}</h2>
-
-        <!-- <section id="downloads">
-          <a href="https://github.com/dhodgkin" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section> -->
       </div>
     </header>
 
@@ -40,6 +34,20 @@
         {{ content }}
       
       </section>
+    </div>
+
+
+    <div class="footer">
+      <div class="contact">
+        <p>
+          Damien Hodgkin<br />
+          dracul01@gmail.com
+        </p>
+      </div>
+      <div class="contact">
+        <p><a href="http://github.com/dhodgkin/">github.com/dhodgkin</a><br /></p>
+      </div>
+      <!-- <div class="rss"><img src="/images/rss.png" alt="Subscribe to RSS Feed" /></div> -->
     </div>
 
     <a href="http://github.com/dhodgkin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
@@ -54,7 +62,6 @@
     if(typeof ClickTale=='function') ClickTale(11816,0.5,"www14");
     </script>
     <!-- ClickTale end of Bottom part -->
-
     
   </body>
 </html>
