@@ -1,0 +1,9 @@
+---
+layout: post
+title: Test Post
+---
+
+h1. {{ page.title }}
+
+p(meta). 9 Dec 2012
+
