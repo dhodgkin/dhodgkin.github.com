@@ -200,6 +200,11 @@ margin: 0 auto;
   color: #8085C1;
 }
 
+.footer .copytext {
+  float: left;
+  margin-right: 3em;
+}
+
 .footer .rss {
   margin-top: 1.1em;
   margin-right: -.2em;

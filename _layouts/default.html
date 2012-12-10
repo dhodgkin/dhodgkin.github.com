@@ -20,37 +20,48 @@
     <script type="text/javascript">var WRInitTime=(new Date()).getTime();</script>
     <!-- ClickTale end of Top part -->
 
-    
-    <header>
+
+<!-- ...................................................................... -->
+<!-- Site Layout Begins                                                     -->
+<!-- ...................................................................... -->
+
+    <!-- Page Header start -->
+    <header class="title">
       <div class="container">
-        <h1>{{ page.title }}</h1>
+        <h1><a href="/">{{ page.title }}</a></h1>
         <h2>{{ page.slogan }}</h2>
+        <div class="undertitlemenu">
+          <a class="extra" href="/">Home</a>
+          <a class="extra" href="/">Item2</a>
+          <a class="extra" href="/">Item3</a>
+          <a class="extra" href="/">Item4</a>
+        </div>
       </div>
     </header>
+    <!-- Page Header end -->
 
+    <!-- Main Content Area start -->
     <div class="container">
-      <section id="main_content">
-
-        {{ content }}
-      
-      </section>
+      <section id="main_content">{{ content }}</section>
     </div>
+    <!-- Main Content Area end -->
 
-
-    <div class="footer">
-      <div class="contact">
-        <p>
-          Damien Hodgkin<br />
-          dracul01@gmail.com
-        </p>
+    <!-- Page Footer start -->
+    <footer>
+      <div class="footer">
+        <div class="contact"><p>Damien Hodgkin<br>dracul01@gmail.com</p></div>
+        <div class="contact"><p><a href="http://github.com/dhodgkin/">github.com/dhodgkin</a><br></p></div>
+        <div class="copytext"><p>Copyright © 2012<br>by Damien Hodgkin.<br>All Right Reserved.<br>Unless otherwise stated.</p></div>
+        <!-- <div class="rss"><img src="/images/rss.png" alt="Subscribe to RSS Feed" /></div> -->
       </div>
-      <div class="contact">
-        <p><a href="http://github.com/dhodgkin/">github.com/dhodgkin</a><br /></p>
-      </div>
-      <!-- <div class="rss"><img src="/images/rss.png" alt="Subscribe to RSS Feed" /></div> -->
-    </div>
+    </footer>
+    <!-- Page Footer end -->
 
     <a href="http://github.com/dhodgkin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+
+<!-- ...................................................................... -->
+<!-- Site Layout Ends                                                       -->
+<!-- ...................................................................... -->
 
     <!-- ClickTale Bottom part -->
     <div id="ClickTaleDiv" style="display: none;"></div>
