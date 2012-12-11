@@ -5,7 +5,7 @@ title: How I Want This Site to Work
 
 h1. {{ page.title }}
 
-p(meta). 09 Dec 2012
+p(meta). posted on: 09 Dec 2012
 
 I want this blog to be first and foremost a coding blog. But of course these "coding blogs" are a dime-a-dozen. So, I have 
 been thinking of ideas to make this one slightly different. And none of them panned out so I decided, "Hey! I'll just wing it." So here we are an off the cuff, spontaneous coding (most of the time) blog. 
