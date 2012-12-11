@@ -5,12 +5,13 @@ title: dhodgkin.github.com
 
 <div id="home">
   <h1>Blog Posts</h1>
-  <hr>
   <ul class="posts">
     {% for post in site.posts %}
       <!-- <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li> -->
       <div id="post">
+        <hr>
         {{ post.content }}
+        <hr>
       </div>
     {% endfor %}
   </ul>
