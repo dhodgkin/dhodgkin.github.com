@@ -76,7 +76,7 @@ body { margin: 0; padding: 0; background: #151515 url("../images/bkg.png") 0 0; 
   .meta { color: #aaa; }
 
 /* Posts */
-  #post {}
+  #post { font-weight: bold; text-align: left; }
   /* standard post layout */
   #post pre { border: 1px solid #ddd; background-color: #eef; padding: 0 .4em; }
   #post ul, #post ol { margin-left: 1.35em; }
