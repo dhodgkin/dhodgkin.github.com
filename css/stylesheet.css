@@ -21,7 +21,7 @@ body { margin: 0; padding: 0; background: #151515 url("../images/bkg.png") 0 0; 
   .container {  width: 90%;  max-width: 600px;  margin: 0 auto;}
 
 /* Header */
-  header { background: rgba(0, 0, 0, 0.1); width: 100%; border-bottom: 1px dashed #b5e853; padding: 20px 0; margin: 0 0 40px 0; }
+  header { background: rgba(0, 0, 0, 0.1); width: 100%; /*border-bottom: 1px dashed #b5e853;*/ padding: 20px 0; margin: 0 0 40px 0; }
   header h1 { font-size: 30px; line-height: 1.5; margin: 0 0 0 -40px; font-weight: bold; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: #b5e853; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); letter-spacing: -1px;  -webkit-font-smoothing: antialiased; }
   header h1:before {  content: "< ";  font-size: 24px;}
   header h1:after  {  content: " >";  font-size: 24px;}
@@ -76,7 +76,7 @@ body { margin: 0; padding: 0; background: #151515 url("../images/bkg.png") 0 0; 
   .meta { color: #aaa; }
 
 /* Posts */
-  #post {}
+  #post { font-size: 13px; font-weight: bold; text-align: left; }
   /* standard post layout */
   #post pre { border: 1px solid #ddd; background-color: #eef; padding: 0 .4em; }
   #post ul, #post ol { margin-left: 1.35em; }
@@ -91,7 +91,7 @@ body { margin: 0; padding: 0; background: #151515 url("../images/bkg.png") 0 0; 
 
 /* Footer */
   /* footer and other bottom of page matter */
-  footer { background: rgba(0, 0, 0, 0.1); width: 100%; border-top: 1px dashed #B5E853; padding: 20px 0; margin: 0 0 40px 0; }
+  footer { background: rgba(0, 0, 0, 0.1); width: 100%; /*border-top: 1px dashed #B5E853;*/ padding: 20px 0; margin: 0 0 40px 0; }
   .footer { font-size: 80%; color: #666; margin-top: 2em; overflow: hidden; width: 100%; max-width: 600px; margin: 0 auto; }
   .footer .contact { float: left; margin-right: 3em; }
   .footer .contact a { color: #8085C1; }
