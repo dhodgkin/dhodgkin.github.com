@@ -76,7 +76,7 @@ body { margin: 0; padding: 0; background: #151515 url("../images/bkg.png") 0 0; 
   .meta { color: #aaa; }
 
 /* Posts */
-  #post { font-size: 13px; font-weight: bold; text-align: left; }
+  #post { font-size: 13px; font-weight: bold; text-align: left; /*border-top: 2px dashed #b5e853; */border-bottom: 2px dashed #b5e853;}
   /* standard post layout */
   #post pre { border: 1px solid #ddd; background-color: #eef; padding: 0 .4em; }
   #post ul, #post ol { margin-left: 1.35em; }

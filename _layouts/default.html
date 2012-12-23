@@ -3,9 +3,10 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="author" content="Damien Hodgkin" />
-
+ 
     <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
 
     <link rel="stylesheet" type="text/css" href="/css/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" media="screen" />
@@ -14,6 +15,7 @@
     <!--  Typekit -->
     <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   </head>
 
   <body>
@@ -29,9 +31,11 @@
     <!-- Page Header start -->
     <header class="title">
       <div class="container">
-        <h1><a href="/">dhodgkin.github.com</a></h1>
-        <h2>Just my code blog..</h2>
-      </div>
+<!--         <h1><a href="/">dhodgkin.github.com</a></h1>
+        <h2>Just my code blog..</h2> -->
+        <h1><a href="/">{{ site.title }}</a></h1>
+        <h2>{{ site.tagline }}</h2>
+       </div>
     </header>
     <!-- Page Header end -->
 
@@ -42,46 +46,35 @@
     <!-- Main Content Area end -->
 
     <!-- Page Footer start -->
-    <footer>
-      <div class="footer">
+    <footer class="footer">
+      <div>
         <div class="copytext">
           <p>All content belongs to me unless otherwise stated.</p>
-
-          <div class="thanksbox">
-            <p>
-              <span class="thanks">
-                Thanks <a href="http://github.com/mojombo/">Tim Preston-Werner</a> for some CSS code I used from your site.
-                <br>
-                And some small snippets from your layout to get posts showing.
-              </span>
-            </p>
-            <p>
-              <span class="thanks">
-                Thanks to GitHub for an amazingly cool tool.
-              </span>
-            </p>
-            <p>
-              <span class="thanks">
-                And thanks to anyone who is not mentioned.
-                <br>
-                You all helped me in various ways.
-              </span>
-            </p>
-          </div>
-
-          <p>
-            Find me here <a href="http://github.com/dhodgkin/">github.com/dhodgkin</a>
-            <br>
-          </p>
-          <p>
-            Copyright © 2012 Damien Hodgkin &lt;dracul01@gmail.com&gt;.
-            <br>
-            All Right Reserved.
-          </p>
+          <p>Find me here <a href="{{ site.author.github }}">{{ site.author.github }}</a></p>
+          <p>Copyright © by {{ site.author.name }} &lt;{{ site.author.email }}&gt; 2012.<br>All Right Reserved.</p>
         </div>
+      </div>
+
+      <div id="thanks">
+       <a id="open">Show Thanks</a>
+        <a id="close" style="display: none; ">Close Thanks</a>
+        <div id="thanksbox" class="thanksbox" style="display: none; ">
+            <p class="thanks">Thanks <a href="http://github.com/mojombo/">Tim Preston-Werner</a> for some CSS code I used from your site.<br>And some small snippets from your layout to get posts showing.</p>
+              <p class="thanks">Thanks to <a href="http://github.com">GitHub</a> for an amazingly cool tool.</p>
+              <p class="thanks">And thanks to anyone who is not mentioned.<br>You all helped me in various ways.</p>
+          </div>
       </div>
     </footer>
     <!-- Page Footer end -->
+
+    <script type="text/javascript">
+          $('#thanks').click(function() {
+              $('#thanksbox').toggle('slow', function() { 
+                  $('#open').toggle();
+                  $('#close').toggle();
+              });
+          });
+    </script>
 
     <a href="http://github.com/dhodgkin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
 

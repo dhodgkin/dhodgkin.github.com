@@ -1,6 +1,9 @@
 ---
 layout: post
 title: How I Want This Site to Work
+description: ""
+category: 
+tags: []
 ---
 
 h1. {{ page.title }}

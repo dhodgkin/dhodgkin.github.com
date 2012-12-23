@@ -1,7 +1,11 @@
 ---
 layout: post
 title: I miss coding...
+description: ""
+category: 
+tags: []
 ---
+
 h1. {{ page.title }}
 
 p(meta). posted on: Dec 12, 2012

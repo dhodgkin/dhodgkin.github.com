@@ -161,3 +161,14 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+
+_site/*
+_theme_packages/*
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
