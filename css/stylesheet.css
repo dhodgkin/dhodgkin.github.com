@@ -88,6 +88,8 @@ body { margin: 0; padding: 0; background: #151515 url("../images/bkg.png") 0 0; 
   /* related posts */
   #related { margin-top: 2em; }
   #related h2 { margin-bottom: 1em; }
+  /* fb comments */
+  .fb-comments-center { position: relative; margin: 0 auto 0 auto;}
 
 /* Footer */
   /* footer and other bottom of page matter */
