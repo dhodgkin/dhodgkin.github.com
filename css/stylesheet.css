@@ -43,7 +43,7 @@ body { margin: 0; padding: 0; background: #151515 url("../images/bkg.png") 0 0; 
   #main_content h6 {  font-size: 12px; text-transform: uppercase; color: #999; margin: 0 0 5px 0; }
   dt { font-style: italic; font-weight: bold; }
   ul li { list-style: none; }
-  ul li:before { content: ">>"; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; font-size: 13px; color: #b5e853; margin-left: -37px; margin-right: 21px; line-height: 16px; }
+  ul li:before {font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; font-size: 13px; color: #b5e853; margin-left: -37px; margin-right: 21px; line-height: 16px; }
   blockquote {  color: #aaa;  padding-left: 10px;  border-left: 1px dotted #666;}
   pre { background: rgba(0, 0, 0, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); padding: 10px; font-size: 14px; color: #b5e853; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; text-wrap: normal; overflow: auto; overflow-y: hidden; }
   table { width: 100%; margin: 0 0 20px 0; }

@@ -32,15 +32,13 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- ...................................................................... -->
-<!-- Site Layout Begins                                         -->
-<!-- ...................................................................... -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Site Layout Begins                                                      -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <!-- Page Header start -->
     <header class="title">
       <div class="container">
-<!--         <h1><a href="/">dhodgkin.github.com</a></h1>
-        <h2>Just my code blog..</h2> -->
         <h1><a href="/">{{ site.title }}</a></h1>
         <h2>{{ site.tagline }}</h2>
        </div>
@@ -64,31 +62,39 @@
       </div>
 
       <div id="thanks">
-       <a id="open">Show Thanks</a>
-        <a id="close" style="display: none; ">Close Thanks</a>
         <div id="thanksbox" class="thanksbox" style="display: none; ">
-            <p class="thanks">Thanks <a href="http://github.com/mojombo/">Tim Preston-Werner</a> for some CSS code I used from your site.<br>And some small snippets from your layout to get posts showing.</p>
-              <p class="thanks">Thanks to <a href="http://github.com">GitHub</a> for an amazingly cool tool.</p>
-              <p class="thanks">And thanks to anyone who is not mentioned.<br>You all helped me in various ways.</p>
-          </div>
+          <p class="thanks">Thanks <a href="http://github.com/mojombo/">Tim Preston-Werner</a> for some CSS code I used from your site.<br>And some small snippets from your layout to get posts showing.</p>
+          <p class="thanks">Thanks to <a href="http://github.com">GitHub</a> for an amazingly cool tool.</p>
+          <p class="thanks">And thanks to anyone who is not mentioned.<br>You all helped me in various ways.</p>
+        </div>
+        <ul class="thanks-actions"></ul>
       </div>
     </footer>
     <!-- Page Footer end -->
 
-    <script type="text/javascript">
-          $('#thanks').click(function() {
-              $('#thanksbox').toggle('slow', function() { 
-                  $('#open').toggle();
-                  $('#close').toggle();
-              });
+    <script> //<![CDATA[    
+       $(document).ready(function(){
+          $("#thanksbox").hide();
+          $("#thanks ul").prepend("<li class='thanks'><a href='' title='Thanks'>Thanks</a></li>");
+          $(".thanks-actions li.thanks a").click(function(event) {
+            $(this).parents("ul").prev("#thanksbox").toggle();
+            event.preventDefault();
           });
-    </script>
+
+         $(".thebody").hide();
+         $(".posts ul").prepend("<li class='comment'><a href='' title='Comment'>Comment</a></li>");
+         $(".actions li.comment a").click(function(event){
+           $(this).parents("ul").prev(".thebody").toggle();
+           event.preventDefault();
+         });
+       });
+     //]]></script>
 
     <a href="http://github.com/dhodgkin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
 
-<!-- ...................................................................... -->
-<!-- Site Layout Ends                                                       -->
-<!-- ...................................................................... -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Site Layout Ends                                                        -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <!-- ClickTale Bottom part -->
     <div id="ClickTaleDiv" style="display: none;"></div>
