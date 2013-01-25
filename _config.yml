@@ -19,6 +19,18 @@ author :
   twitter : http://twitter.com/dthodgkin
   #feedburner : feedname
 
+# Settings for comments helper
+# Set 'provider' to the comment provider you want to use.
+# Set 'provider' to false to turn commenting off globally.
+#
+comments :
+  provider : facebook
+  facebook :
+    appid : 128742020513581
+    num_posts: 5
+    width: 580
+    colorscheme: dark
+    
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
