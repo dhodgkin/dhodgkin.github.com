@@ -1,0 +1,13 @@
+---
+layout: post
+title: Been forever
+description: ""
+category: 
+tags: []
+---
+
+h1. {{ page.title }}
+
+p(meta). posted on: Jul 26, 2013
+
+Been forever since I wrote anything. Just an observation.
