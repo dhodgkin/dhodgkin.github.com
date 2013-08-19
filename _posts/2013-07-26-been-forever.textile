@@ -8,6 +8,6 @@ tags: []
 
 h1. {{ page.title }}
 
-p(meta). posted on: Jul 26, 2013
+p(meta). posted on: {{ page.date | date_to_string }}
 
 Been forever since I wrote anything. Just an observation.

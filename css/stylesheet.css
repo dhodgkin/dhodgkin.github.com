@@ -18,7 +18,7 @@
 body { margin: 0; padding: 0; background: #151515 url("../images/bkg.png") 0 0; color: #eaeaea; font: 16px; line-height: 1.5; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; }
 
 /* General Stuff */
-  .container {  width: 90%;  max-width: 600px;  margin: 0 auto;}
+  .container {  width: 90%;  max-width: 800px;  margin: 0 auto;}
 
 /* Header */
   header { background: rgba(0, 0, 0, 0.1); width: 100%; padding: 20px 0; margin: 0 0 40px 0; }
@@ -45,7 +45,7 @@ body { margin: 0; padding: 0; background: #151515 url("../images/bkg.png") 0 0; 
   ul li { list-style: none; }
   ul li:before {font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; font-size: 13px; color: #b5e853; margin-left: -37px; margin-right: 21px; line-height: 16px; }
   blockquote {  color: #aaa;  padding-left: 10px;  border-left: 1px dotted #666;}
-  pre { background: rgba(0, 0, 0, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); padding: 10px; font-size: 14px; color: #b5e853; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; text-wrap: normal; overflow: auto; overflow-y: hidden; }
+  /*pre { background: rgba(0, 0, 0, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); padding: 10px; font-size: 14px; color: #b5e853; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; text-wrap: normal; overflow: auto; overflow-y: hidden; }*/
   table { width: 100%; margin: 0 0 20px 0; }
   th { text-align: left; border-bottom: 1px dashed #b5e853; padding: 5px 10px; }
   td { padding: 5px 10px; }
@@ -78,13 +78,13 @@ body { margin: 0; padding: 0; background: #151515 url("../images/bkg.png") 0 0; 
 /* Posts */
   #post { font-size: 13px; font-weight: bold; text-align: left; /*border-top: 2px dashed #b5e853; */border-bottom: 2px dashed #b5e853;}
   /* standard post layout */
-  #post pre { border: 1px solid #ddd; background-color: #eef; padding: 0 .4em; }
+  /*#post pre { border: 1px solid #ddd; background-color: #eef; padding: 0 .4em; }*/
   #post ul, #post ol { margin-left: 1.35em; }
-  #post code { border: 1px solid #ddd; background-color: #eef; font-size: 85%; padding: 0 .2em; }
-  #post pre code { border: none; }
+  /*#post code { border: 1px solid #ddd; background-color: #eef; font-size: 85%; padding: 0 .2em; }*/
+  /*#post pre code { border: none; }*/
   /* style for terminal like look */
-  #post pre.terminal { border: 1px solid black; background-color: #2b2b2b; color: #e2e6fe; }
-  #post pre.terminal code { background-color: #2b2b2b; }
+  /*#post pre.terminal { border: 1px solid black; background-color: #2b2b2b; color: #e2e6fe; }*/
+  /*#post pre.terminal code { background-color: #2b2b2b; }*/
   /* related posts */
   #related { margin-top: 2em; }
   #related h2 { margin-bottom: 1em; }
@@ -94,7 +94,7 @@ body { margin: 0; padding: 0; background: #151515 url("../images/bkg.png") 0 0; 
 /* Footer */
   /* footer and other bottom of page matter */
   footer { background: rgba(0, 0, 0, 0.1); width: 100%; padding: 20px 0; margin: 0 0 40px 0; }
-  .footer { font-size: 80%; color: #666; margin-top: 2em; overflow: hidden; width: 100%; max-width: 600px; margin: 0 auto; }
+  .footer { font-size: 80%; color: #666; margin-top: 2em; overflow: hidden; width: 100%; /* max-width: 600px;*/ margin: 0 auto; }
   .footer .contact { float: left; margin-right: 3em; }
   .footer .contact a { color: #8085C1; }
   .footer .copytext { margin: 0 auto; }
@@ -103,3 +103,45 @@ body { margin: 0; padding: 0; background: #151515 url("../images/bkg.png") 0 0; 
   .footer .rss img { border: 0; }
   .footer .thanksbox { background-color: #2C2C2C; border: 1px #707070 solid; color: #8D8D8D; }
   .footer .thanks { }
+
+/* Code Highlighting */
+
+
+pre, code {
+  white-space: pre;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+  font-size: 12px;
+  padding: 0 .2em;
+  line-height: 1.8em;
+}
+
+@media (min-width: 768px){
+  pre, code {
+    font-size: 16px;
+  }
+}
+
+.highlight, p > pre, p > code, p > nobr > code, li > code, h5 > code, .note > code {
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 10px rgba(0,0,0,.3),
+    0 1px 0 rgba(255,255,255,.1),
+    0 -1px 0 rgba(0,0,0,.5);
+}
+
+.note code {
+  background-color: rgba(0,0,0,0.2);
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  font-size: 0.8em;
+}
+
+.highlight {
+  padding: 10px 0;
+  width: 100%;
+  overflow: auto;
+}
