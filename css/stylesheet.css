@@ -115,12 +115,12 @@ pre, code {
   font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
   font-size: 12px;
   padding: 0 .2em;
-  line-height: 1.8em;
+  /*line-height: 1.8em;*/
 }
 
 @media (min-width: 768px){
   pre, code {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
