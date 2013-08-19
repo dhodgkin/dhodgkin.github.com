@@ -18,3 +18,23 @@
       </div>
     </footer>
     <!-- Page Footer end -->
+
+    <script> //<![CDATA[    
+       $(document).ready(function(){
+          $("#thanksbox").hide();
+          $("#thanks ul").prepend("<li class='thanks'><a href='' title='Thanks'>Thanks</a></li>");
+          $(".thanks-actions li.thanks a").click(function(event) {
+            $(this).parents("ul").prev("#thanksbox").toggle();
+            event.preventDefault();
+          });
+
+         $(".thebody").hide();
+         $(".posts ul").prepend("<li class='comment'><a href='' title='Comment'>Comment</a></li>");
+         $(".actions li.comment a").click(function(event){
+           $(this).parents("ul").prev(".thebody").toggle();
+           event.preventDefault();
+         });
+       });
+     //]]></script>
+
+    <a href="http://github.com/dhodgkin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
