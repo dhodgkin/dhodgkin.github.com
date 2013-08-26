@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>dhodgkin</title>
+ <link href="http://dhodgkin.github.com/atom.xml" rel="self"/>
+ <link href="http://dhodgkin.github.com/"/>
+ <updated>2013-01-26T11:12:53-05:00</updated>
+ <id>http://dhodgkin.github.com/</id>
+ <author>
+   <name>dhodgkin</name>
+   <email>dracul01@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Brushing off the dust...</title>
+   <link href="http://dhodgkin.github.com/2013/01/25/brushing-off-the-dust"/>
+   <updated>2013-01-25T00:00:00-05:00</updated>
+   <id>http://dhodgkin.github.com/2013/01/25/brushing-off-the-dust</id>
+   <content type="html">&lt;h1&gt;Brushing off the dust&amp;#8230;&lt;/h1&gt;
+&lt;p class=&quot;meta&quot;&gt;posted on: Jan 25, 2013&lt;/p&gt;
+&lt;p&gt;So I was searching through old code and projects that got packed away on my spare drive and forgotten about. Well as I rummaged around I found a dusty directory.&lt;br /&gt;
+Picking up the directory I blew the dust away to reveal that is was in fact the code for a Social Networking site I had started back in 2010. Looking at this I wondered to myself, &amp;#8220;Why did I let this get pushed aside?&amp;#8221;.&lt;br /&gt;
+So, friends, I have decided to brush the dust off the code and bring this monster back to life. &lt;br /&gt;
+You can find the code here http://github.com/dhodgkin/drphibes (drphibes is the working name). But don&amp;#8217;t blame me is the shit don&amp;#8217;t work. It&amp;#8217;s a bit mildewy and has some pieces that may have been nibble by mice to be used for nesting. &lt;br /&gt;
+Well, go fork it up.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Down, Down, Down</title>
+   <link href="http://dhodgkin.github.com/2013/01/23/down-down-down"/>
+   <updated>2013-01-23T00:00:00-05:00</updated>
+   <id>http://dhodgkin.github.com/2013/01/23/down-down-down</id>
+   <content type="html">&lt;h1&gt;Down, Down, Down&lt;/h1&gt;
+&lt;p class=&quot;meta&quot;&gt;posted on: Jan 23, 2013&lt;/p&gt;
+&lt;p&gt;I guess I am starting to get to a point in my existence where I am noticing that I am not following my dreams. I am just too scared to try. I am afraid of letting myself down, letting my family down, and letting colleagues down. I am a lazy asshole, I am a procrastinator, I am Agoraphobic, I have anxiety, panic disorder, and &lt;span class=&quot;caps&quot;&gt;ADD&lt;/span&gt;, this is true. But, when I set my mind to something, or I am tasked with something I love or that interests me, I go head first into it. I melt into it. I obsess about it. Point is, I don&amp;#8217;t want to do nothing. I want to do what I love. I want to write code, I want to learn about code. I want to write code for a career. I want to get back into school and get a degree in Web Development. I want to be happy in knowing that what I do makes me happy and in making me happy makes my family happy.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>I miss coding...</title>
+   <link href="http://dhodgkin.github.com/2012/12/12/i-miss-code"/>
+   <updated>2012-12-12T00:00:00-05:00</updated>
+   <id>http://dhodgkin.github.com/2012/12/12/i-miss-code</id>
+   <content type="html">&lt;h1&gt;I miss coding&amp;#8230;&lt;/h1&gt;
+&lt;p class=&quot;meta&quot;&gt;posted on: Dec 12, 2012&lt;/p&gt;
+&lt;p&gt;I have been pretty depressed lately&amp;#8230; and it hit me today. I miss code! I miss writing something and having it work. I miss having to spend an hour debugging it to figure out why it prints this instead of that. I miss coding!!!! I miss asking a friend how to use a certain function and getting &amp;#8220;&lt;span class=&quot;caps&quot;&gt;RTFM&lt;/span&gt;&amp;#8221; in reply. I miss the bleery eyed daze after an all night hack session. I miss the discussions about the good and bad points of a certain language, editor or &lt;span class=&quot;caps&quot;&gt;IDE&lt;/span&gt;. I miss all my code junky friends.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>How I Want This Site to Work</title>
+   <link href="http://dhodgkin.github.com/2012/12/09/how-i-want-this-site-to-work"/>
+   <updated>2012-12-09T00:00:00-05:00</updated>
+   <id>http://dhodgkin.github.com/2012/12/09/how-i-want-this-site-to-work</id>
+   <content type="html">&lt;h1&gt;How I Want This Site to Work&lt;/h1&gt;
+&lt;p class=&quot;meta&quot;&gt;posted on: Dec 09, 2012&lt;/p&gt;
+&lt;p&gt;I want this blog to be first and foremost a coding blog. But of course these &amp;#8220;coding blogs&amp;#8221; are a dime-a-dozen. So, I have been thinking of ideas to make this one slightly different. And none of them panned out so I decided, &amp;#8220;Hey! I&amp;#8217;ll just wing it.&amp;#8221; So here we are an off the cuff, spontaneous coding (most of the time) blog. &lt;br /&gt;
+For the most part the posts will be fairly short. I don&amp;#8217;t want to bore. But I do want to illuminate on what I have learned in the wonderful world of development. So relax, grab some beer and try to follow me as best you can.&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>
