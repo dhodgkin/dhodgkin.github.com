@@ -6,9 +6,9 @@ title: dhodgkin.github.com
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
-      <div id="post">{{ post.content }}</div>
-      <br>
-      {% include fb-markup.html %}
+      <div id="post">{{ post.excerpt }}
+          <p><a href="{{ post.url }}">&lt;read more...&gt;</a></p>
+      </div>
       <br>
     {% endfor %}
   </ul>
