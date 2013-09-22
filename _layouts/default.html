@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html>
-  {% include grey-matter.html %}
-  <body>
-    {% include fb-jssdk.html %}
-    {% include JB/setup %}
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<!-- Site Layout Begins                                                      -->
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+{% include JB/setup %}
+{% include themes/dhodgkin/default.html %}
 
-    {% include header.html %}
-
-    {% include sidebar.html %}
-
-    <!-- Main Content Area start -->
-    <div class="container">
-      <div id="main_content">{{ content }}</div>
-    </div>
-    <!-- Main Content Area end   -->
-
-    {% include footer.html %}
-
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<!-- Site Layout Ends                                                        -->
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-    
-  </body>
-</html>
