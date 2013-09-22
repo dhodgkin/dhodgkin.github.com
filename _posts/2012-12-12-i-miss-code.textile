@@ -2,8 +2,8 @@
 layout: post
 title: I miss coding...
 description: ""
-category: 
-tags: []
+category: Whining 
+tags: ["whining", "bitching"]
 ---
 
 h1. {{ page.title }}

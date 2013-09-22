@@ -3,22 +3,25 @@
   {% include grey-matter.html %}
   <body>
     {% include fb-jssdk.html %}
+    {% include JB/setup %}
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<!-- Site Layout Begins                                                  -->
+<!-- Site Layout Begins                                                      -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     {% include header.html %}
+
+    {% include sidebar.html %}
 
     <!-- Main Content Area start -->
     <div class="container">
       <div id="main_content">{{ content }}</div>
     </div>
-    <!-- Main Content Area end -->
+    <!-- Main Content Area end   -->
 
     {% include footer.html %}
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<!-- Site Layout Ends                                                     -->
+<!-- Site Layout Ends                                                        -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     
   </body>
