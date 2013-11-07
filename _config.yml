@@ -13,7 +13,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : dhodgkin.github.io
-tagline: Just my code blog...
+tagline: Just my blog... about... uh... nothing
 author :
   name : Damien Hodgkin
   email : dracul01@gmail.com
