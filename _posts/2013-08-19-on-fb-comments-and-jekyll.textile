@@ -3,7 +3,7 @@ layout: post
 title: On FB Comments and Jekyll
 description: ""
 category: Code
-tags: []
+tags: [facebook, comments]
 ---
 
 h1. {{ page.title }}
@@ -11,7 +11,7 @@ h1. {{ page.title }}
 p(meta). posted on: {{ page.date | date_to_string }}
 
 Jekyll is a pretty freaking awesome, eh, fram.wor..tool. Tool, yeah, that's it. Anyway, being as simple as it is, it can have some hills to climb at times.
-Add in the super compl-easy Facebook Graph "stuff" and you start to get into rock climbing. Sure, some of you may be thinking "Hey, fucker, the Facebook integration stuff is easy as hell." Well, not for everyone, smartasses. {{ more }}
+Add in the super compl-easy Facebook Graph "stuff" and you start to get into rock climbing. Sure, some of you may be thinking "Hey, fucker, the Facebook integration stuff is easy as hell." Well, not for everyone, smartasses. <!--more-->
 
 I fought with getting the FB Comments and Jekyll to play nice for a while. Having the issue that the comments box on every post would contain all comments. Obviously unwanted behaviour. I wanted each post to have it's own seperate comments and likes. Here's where I was slipping...
 
