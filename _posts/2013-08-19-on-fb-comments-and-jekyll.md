@@ -8,7 +8,7 @@ tags: [facebook, comments]
 
 ## {{ page.title }}
 
-posted on: {{ page.date | date_to_string: "ordinal", "US" }}
+posted on: {{ page.date | date_to_string }}
 {: .meta}
 
 Jekyll is a pretty freaking awesome, eh, fram.wor..tool. Tool, yeah, that's it. Anyway, being as simple as it is, it can have some hills to climb at times.
