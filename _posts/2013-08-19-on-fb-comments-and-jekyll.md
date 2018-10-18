@@ -6,9 +6,9 @@ category: Code
 tags: [facebook, comments]
 ---
 
-h1. {{ page.title }}
+# {{ page.title }}
 
-p(meta). posted on: {{ page.date | date_to_string }}
+<p class="meta">posted on: {{ page.date | date_to_string }}</p>
 
 Jekyll is a pretty freaking awesome, eh, fram.wor..tool. Tool, yeah, that's it. Anyway, being as simple as it is, it can have some hills to climb at times.
 Add in the super compl-easy Facebook Graph "stuff" and you start to get into rock climbing. Sure, some of you may be thinking "Hey, fucker, the Facebook integration stuff is easy as hell." Well, not for everyone, smartasses. <!--more-->
@@ -35,11 +35,11 @@ then where ever you want the comments box to be you put this bit
 <div class="fb-comments" data-href="http://example.com" data-width="600" data-num-posts="2" data-colorscheme="dark"></div>
 {% endhighlight %}
 
-p(highlight2). Now the bit that is not that clear is the <span class="na">data-href=</span><span class="s">&quot;http://example.com&quot;</span> bit.
+<p class="highlight2">Now the bit that is not that clear is the <span class="na">data-href=</span><span class="s">&quot;http://example.com&quot;</span> bit.</p>
 
-p(highlight2). What is not clear at first is that if you just use your domain, then no matter where and how many times you put the fb-comments div, you get the same comments box. So if you have the comments box on multiple posts or pages each of these will share the comments. To remedy this, the bit that took me some time to figure out, you need to make a minor tweak to the <span class="na">data-href=</span><span class="s">&quot;http://example.com&quot;</span> line.
+<p class="highlight2">What is not clear at first is that if you just use your domain, then no matter where and how many times you put the fb-comments div, you get the same comments box. So if you have the comments box on multiple posts or pages each of these will share the comments. To remedy this, the bit that took me some time to figure out, you need to make a minor tweak to the <span class="na">data-href=</span><span class="s">&quot;http://example.com&quot;</span> line.</p>
 
-p(highlight2). So this minor tweak is to add {% raw %} {{ post.url }} {% endraw %} to <span class="na">data-href=</span> like so
+<p class="highlight2">So this minor tweak is to add {% raw %} {{ post.url }} {% endraw %} to <span class="na">data-href=</span> like so</p>
 {% highlight html linenos %}
 <div class="fb-comments" data-href="http://example.com{% raw %}{{ post.url }}/{% endraw %}" data-width="600" data-num-posts="2" data-colorscheme="dark"></div>
 {% endhighlight %}
