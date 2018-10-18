@@ -6,7 +6,7 @@ category:
 tags: []
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 posted on: {{ page.date | date_to_string }}
 {: .meta}
