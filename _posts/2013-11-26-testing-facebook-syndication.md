@@ -8,7 +8,7 @@ tags: []
 
 ## {{ page.title }}
 
-posted on: {{ page.date | date_to_string: "ordinal", "US" }}
+posted on: {{ page.date | date_to_string }}
 {: .meta}
 
 Has this post been syndicated? We'll see. 
