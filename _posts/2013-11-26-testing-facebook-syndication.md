@@ -8,7 +8,8 @@ tags: []
 
 # {{ page.title }}
 
-<p class="meta">posted on: {{ page.date | date_to_string }}</p>
+posted on: {{ page.date | date_to_string }}
+{: .meta}
 
 Has this post been syndicated? We'll see. 
 
