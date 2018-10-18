@@ -6,9 +6,10 @@ category: Role Playing
 tags: [rpg, role playing]
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-<p class="meta">posted on: {{ page.date | date_to_string }}</p>
+posted on: {{ page.date | date_to_string }}
+{: .meta}
 
 So I have been checking out D&D 4e and D&D Next. Well, I started thinking 'I want to create my own ruleset for pen and paper RPGs'. Needless to say I have found it to be more difficult than I had imagined while reading the PHB and DMG. <!--more-->
 
