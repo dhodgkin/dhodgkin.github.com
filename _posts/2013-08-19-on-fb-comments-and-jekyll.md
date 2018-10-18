@@ -6,9 +6,10 @@ category: Code
 tags: [facebook, comments]
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-<p class="meta">posted on: {{ page.date | date_to_string }}</p>
+posted on: {{ page.date | date_to_string: "ordinal", "US" }}
+{: .meta}
 
 Jekyll is a pretty freaking awesome, eh, fram.wor..tool. Tool, yeah, that's it. Anyway, being as simple as it is, it can have some hills to climb at times.
 Add in the super compl-easy Facebook Graph "stuff" and you start to get into rock climbing. Sure, some of you may be thinking "Hey, fucker, the Facebook integration stuff is easy as hell." Well, not for everyone, smartasses. <!--more-->
