@@ -8,10 +8,10 @@ title: dhodgkin.github.io - Home
     {% for post in site.posts %}
       <div id="post">
       {% if post.content contains '<!--more-->' %}
-          {{ post.content | split:'<!--more-->' | first }}
+          <p>{{ post.content | split:'<!--more-->' | first }}</p>
           <p><a href="{{ post.url }}">&lt;read more and comment...&gt;</a></p>
       {% else %}
-          {{ post.content }}
+          <p>{{ post.content }}</p>
           <p><a href="{{ post.url }}">&lt;read more and comment...&gt;</a></p>
       {% endif %}
       </div>
