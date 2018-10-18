@@ -6,9 +6,9 @@ category: Code
 tags: []
 ---
 
-h1. {{ page.title }}
+# {{ page.title }}
 
-p(meta). posted on: {{ page.date | date_to_string }}
+<p class="meta">posted on: {{ page.date | date_to_string }}</p>
 
 So I was searching through old code and projects that got packed away on my spare drive and forgotten about. Well as I rummaged around I found a dusty directory.
 Picking up the directory I blew the dust away to reveal that is was in fact the code for a Social Networking site I had started back in 2010. Looking at this I wondered to myself, "Why did I let this get pushed aside?".
