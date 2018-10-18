@@ -6,9 +6,9 @@ category:
 tags: []
 ---
 
-h1. {{ page.title }}
+# {{ page.title }}
 
-p(meta). posted on: {{ page.date | date_to_string }}
+{:.meta} posted on: {{ page.date | date_to_string }}
 
 Has this post been syndicated? We'll see. 
 
