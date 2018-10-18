@@ -6,8 +6,8 @@ category: Whining
 tags: []
 ---
 
-h1. {{ page.title }}
+# {{ page.title }}
 
-p(meta). posted on: {{ page.date | date_to_string }}
+<p class="meta">posted on: {{ page.date | date_to_string }}</p>
 
 Been forever since I wrote anything. Just an observation.
