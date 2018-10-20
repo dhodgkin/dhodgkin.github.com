@@ -66,8 +66,8 @@ task :post do
     post.puts "category: "
     post.puts "tags: []"
     post.puts "---"
-    post.puts "\nh1. {{ page.title }}"
-    post.puts "\np(meta). posted on: {{ page.date | date_to_string }}"
+    post.puts "\n## {{ page.title }}"
+    post.puts "\nposted on: {{ page.date | date_to_string }}\n{: .meta}"
    # post.puts "{% include JB/setup %}"
   end
 end # task :post
