@@ -27,13 +27,6 @@
             $(this).parents("ul").prev("#thanksbox").toggle();
             event.preventDefault();
           });
-
-         $(".thebody").hide();
-         $(".posts ul").prepend("<li class='comment'><a href='' title='Comment'>Comment</a></li>");
-         $(".actions li.comment a").click(function(event){
-           $(this).parents("ul").prev(".thebody").toggle();
-           event.preventDefault();
-         });
        });
      //]]></script>
 

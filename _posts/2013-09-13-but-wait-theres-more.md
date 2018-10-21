@@ -1,6 +1,6 @@
 ---
 layout: post
-title: But wait there's more...
+title: "But wait there's more..."
 description: ""
 category: Code
 tags: []

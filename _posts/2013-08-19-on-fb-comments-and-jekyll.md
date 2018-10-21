@@ -1,6 +1,6 @@
 ---
 layout: post
-title: On FB Comments and Jekyll
+title: "On FB Comments and Jekyll"
 description: ""
 category: Code
 tags: [facebook, comments]

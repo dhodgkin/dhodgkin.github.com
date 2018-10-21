@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I miss coding...
+title: "I miss coding..."
 description: ""
 category: Whining 
 tags: ["whining", "bitching"]
