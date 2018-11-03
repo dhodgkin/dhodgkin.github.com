@@ -78,6 +78,7 @@ task :preview do
   system "bundle exec jekyll serve --watch"
 end # task :preview
 
+# helper functions
 def ask(message, valid_options)
   if valid_options
     answer = get_stdin("#{message} #{valid_options.to_s.gsub(/"/, '').gsub(/, /,'/')} ") while !valid_options.include?(answer)
